@@ -1,0 +1,66 @@
+.prompt {
+  color: #111111;
+  width: 100%;
+  margin: 0rem 0 1rem 0;
+}
+
+.prompt__section {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.prompt__section:first-child {
+  margin-top: 0;
+}
+
+.prompt__section:last-child {
+  margin-bottom: 0;
+}
+
+.prompt__section > *:first-child {
+  margin-top: 0;
+}
+
+.prompt__section > *:last-child {
+  margin-bottom: 0;
+}
+
+.prompt__title {
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.prompt__image {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+@media (min-width: 500px) {
+  .prompt__image {
+    max-height: 30vh;
+  }
+}
+
+.prompt__button {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #111111;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.75rem 2.25rem;
+  border: 0.25rem solid black;
+  margin: 0.5rem;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+  background-color: white;
+}
+
+.prompt__button:hover {
+  background-color: #E4A4BD;
+}

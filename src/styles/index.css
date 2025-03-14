@@ -1,0 +1,58 @@
+@import "./reset.css";
+@import "./typography.css";
+@import "./general-layout.css";
+@import "./grid.css";
+@import "./page-transitions.css";
+@import "../fonts/glacial-indifference/index.css";
+
+#root {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.outro {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: #ffbf29;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #6A0DAD, #E4A4BD, #D8BFD8);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111111; /* Change text color to black */
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.75rem 2.25rem;
+  border: 0.25rem solid #111111;
+  margin: 0.5rem;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+  background-color: #ffffff; /* Change background color to white */
+}
+
+.button:hover {
+  background-color: #E4A4BD;
+}

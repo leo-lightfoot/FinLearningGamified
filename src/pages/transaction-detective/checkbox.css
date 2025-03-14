@@ -1,0 +1,47 @@
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  border: 0.2rem solid #565656;
+  border-radius: 0.2rem;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  transition: border 0.2s ease;
+}
+
+.checkbox--interactive {
+  cursor: pointer;
+}
+
+.checkbox--interactive:hover {
+  border-color: #111111;
+}
+
+.checkbox--checked {
+  border-color: #111111;
+}
+
+.checkbox--disabled {
+  opacity: 0.9;
+  cursor: initial;
+}
+
+.checkbox__checkmark {
+  padding: 0.1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  transition: width 0.2s ease, height 0.2s ease;
+  user-select: none;
+ 
+}
+
+@media (min-width: 450px) {
+  .checkbox {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+}

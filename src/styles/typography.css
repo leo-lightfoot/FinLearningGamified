@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+html {
+  font-size: 65%;
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  font-family: 'League Spartan', sans-serif;
+}

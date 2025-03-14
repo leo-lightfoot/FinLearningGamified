@@ -1,0 +1,48 @@
+.container {
+  width: 100vw; /* Prevent content from jittering on transition */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem 0 2rem;
+}
+
+@media (min-width: 950px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+
+.page,
+.page-wrapper {
+  width: 100%;
+  min-height: calc(100vh - 12rem);
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+.fullscreen-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
