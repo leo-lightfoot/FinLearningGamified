@@ -1,6 +1,6 @@
-# Credit Decision Game (MONEYWISE)
+# CreditScore Game (MONEYWISE)
 
-A React-based educational game designed to teach financial literacy and credit management through interactive decision-making scenarios.
+A React-based game designed to teach financial literacy and credit management through interactive decision-making scenarios.
 
 [Link to live game](https://moneywisedemo.netlify.app/)
 
@@ -39,24 +39,24 @@ This application is an interactive game that helps users learn about financial l
 
 
 ├── public/
-│ ├── index.html # Entry point HTML
-│ ├── favicon.ico # Site favicon
-│ └── manifest.json # Web app manifest
-├── src/
-│ ├── app.js # Main application component
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Game scenario components
-│ ├── store/ # MobX state management
-│ ├── styles/ # CSS styles
-│ ├── images/ # Image assets
-│ └── fonts/ # Custom fonts
+\n│ ├── index.html # Entry point HTML
+\n│ ├── favicon.ico # Site favicon
+\n│ └── manifest.json # Web app manifest
+\n├── src/
+\n│ ├── app.js # Main application component
+\n│ ├── components/ # Reusable UI components
+\n│ ├── pages/ # Game scenario components
+\n│ ├── store/ # MobX state management
+\n│ ├── styles/ # CSS styles
+\n│ ├── images/ # Image assets
+\n│ └── fonts/ # Custom fonts
 
 ## Setup Instructions
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/credit-decision-game.git
-   cd credit-decision-game
+   git clone https://github.com/leo-lightfoot/FinLearningGamified.git
+   cd FinLearningGamified
    ```
 
 2. **Install Dependencies**:
