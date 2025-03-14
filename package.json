@@ -1,0 +1,52 @@
+{
+  "name": "moneywise",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "Chrome >= 80"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "cross-env": "^7.0.3",
+    "cross-var": "^1.1.0",
+    "gh-pages": "^6.2.0",
+    "gsap": "^3.12.5",
+    "lodash.throttle": "^4.1.1",
+    "mobx": "^6.13.5",
+    "mobx-react": "^9.1.1",
+    "react": "^18.3.1",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5"
+  },
+  "prettier": {
+    "printWidth": 100
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV=development react-scripts start",
+    "start:prod": "cross-env REACT_APP_ENV=production react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "typescript": "^5.6.3"
+  }
+}
