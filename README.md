@@ -36,21 +36,22 @@ This application is an interactive game that helps users learn about financial l
 - Progress tracking
 
 ## Project Structure
-
+```
 
 ├── public/
-\n│ ├── index.html # Entry point HTML
-\n│ ├── favicon.ico # Site favicon
-\n│ └── manifest.json # Web app manifest
-\n├── src/
-\n│ ├── app.js # Main application component
-\n│ ├── components/ # Reusable UI components
-\n│ ├── pages/ # Game scenario components
-\n│ ├── store/ # MobX state management
-\n│ ├── styles/ # CSS styles
-\n│ ├── images/ # Image assets
-\n│ └── fonts/ # Custom fonts
+│ ├── index.html # Entry point HTML
+│ ├── favicon.ico # Site favicon
+│ └── manifest.json # Web app manifest
+├── src/
+│ ├── app.js # Main application component
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Game scenario components
+│ ├── store/ # MobX state management
+│ ├── styles/ # CSS styles
+│ ├── images/ # Image assets
+│ └── fonts/ # Custom fonts
 
+```
 ## Setup Instructions
 
 1. **Clone the Repository**:
