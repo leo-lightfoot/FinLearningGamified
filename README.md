@@ -1,12 +1,3 @@
-# Need to update screenshots,
-# Place the project on portfolio
-# Rebuild and push to netlify
-# Linkedin
-# Update Directory
-# Lint
- 
-
-
 # CreditScore Game (MONEYWISE)
 
 A React-based game designed to teach financial literacy and credit management through interactive decision-making scenarios.
